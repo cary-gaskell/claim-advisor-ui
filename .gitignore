@@ -3,7 +3,5 @@ bower_components/
 coverage/
 .sass-cache/
 .idea/
-.tmp/
-dist/
 npm-debug.log
 template
