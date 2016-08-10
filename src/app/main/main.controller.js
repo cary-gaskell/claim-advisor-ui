@@ -9,9 +9,17 @@
   function MainController($timeout, webDevTec, toastr, $state) {
     var vm = this;
 
+    vm.title = "Hello World!";
+    vm.scroll = true;
+    vm.duration = 10000;
+    
+
     vm.awesomeThings = [];
     vm.classAnimation = '';
     vm.creationDate = 1465614857257;
+
+
+
     vm.showToastr = showToastr;
     vm.placeChanged = placeChanged;
     activate();

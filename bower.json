@@ -20,7 +20,8 @@
     "angular": "~1.5.3",
     "Ionicons": "ionicons#^2.0.1",
     "fonts-raleway": "^0.0.4",
-    "ngmap": "^1.17.3"
+    "ngmap": "^1.17.3",
+    "angular-marquee": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.5.3"
