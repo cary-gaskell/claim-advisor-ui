@@ -1,7 +1,7 @@
 <div class="container-fluid">
     <!--<acme-navbar creation-date="main.creationDate"></acme-navbar>-->
 <div class="row">
-  <div class="jumbotron text-center claim-hero" style="color:#fff;">
+  <div class="jumbotron text-center claim-hero" style="color:#fff; margin-bottom:0;">
     <img class="img-responsive" src="https://github.com/cary-gaskell/claim-advisor-ui/blob/master/src/assets/images/flood_insurance2.jpg?raw=true" style="opacity: 0.8;"/>
     <div class="claim-hero-title">
       <h1 class="m-b-0 fs-50">
@@ -13,9 +13,9 @@
     </div>
 
     <div class="od-place-autocomplete autocomplete with-button">
-      <input type="text" ng-model="query" placeholder="Enter your home address">
+      <input type="text" ng-model="query" placeholder="Enter your home address" placeholder="Enter your home address..." class="form-control" places-auto-complete size=80 xxx-component-restrictions="{country:'us'}" types="{{types}}" on-place-changed="vm.placeChanged(place)">
       <a href="#" ng-click="fire()" class="od-xhr-progress button submit white ng-binding">
-        ← Get your free offer today</a>
+        ← Get Peace of Mind Today</a>
     </div>
   </div>
 </div>
