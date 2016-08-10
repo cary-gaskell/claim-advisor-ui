@@ -3,10 +3,10 @@
 
   angular
       .module('claimAdvisor')
-      .controller('FaqController', FaqController);
+      .controller('WhyController', WhyController);
 
   /** @ngInject */
-  function FaqController($timeout, toastr) {
+  function WhyController($timeout, toastr) {
     var vm = this;
 
     vm.showToastr = showToastr;

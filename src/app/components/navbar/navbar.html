@@ -23,14 +23,13 @@
           <li ui-sref-active="current" ><a ui-sref="home"><div>Peace of Mind</div></a></li>
           <li class="mega-menu" ui-sref-active="current"><a ui-sref="pricing"><div>Pricing</div></a></li>
           <li class="mega-menu" ui-sref-active="current"><a ui-sref="process"><div>Process</div></a></li>
-          <li class="mega-menu"><a href="#"><div>Submit a claim</div></a></li>
           <li class="mega-menu"><a href ng-click="moreOpen = !moreOpen;"><div>More<i class="ion-android-arrow-dropdown" style="top:1px;"></i></div></a>
             <ul style="{{moreOpen ? 'display:block': ''}}">
-              <li><a ui-sref="pricing" href><div>Business Claims</div></a></li>
-              <li><a href="#"><div>Why Us</div></a></li>
-              <li><a href="#"><div>Testimonials</div></a></li>
-              <li><a href="#"><div>Contact us</div></a></li>
-              <li><a href="#"><div>FAQ</div></a></li>
+              <li><a ui-sref="business"><div>Business Claims</div></a></li>
+              <li><a ui-sref="why"><div>Why Us</div></a></li>
+              <li><a ui-sref="testimonial"><div>Testimonials</div></a></li>
+              <li><a ui-sref="contact"><div>Contact us</div></a></li>
+              <li><a ui-sref="faq"><div>FAQ</div></a></li>
             </ul>
           </li>
         </ul>
