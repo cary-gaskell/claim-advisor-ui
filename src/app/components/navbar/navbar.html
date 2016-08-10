@@ -1,0 +1,53 @@
+<!-- Header
+    ============================================= -->
+<header id="header" class="full-header sticky-header">
+
+  <div id="header-wrap">
+
+    <div class="container clearfix" style="margin-right: 0; margin-left:0; width:100%;">
+
+      <div id="primary-menu-trigger"><i class="ion-navicon"></i></div>
+
+      <!-- Logo ============================================= -->
+      <div id="logo">
+        <h4 style="padding: 17px; margin:0;">Claim Advisor</h4>
+        <!--<img src="../../assets/images/logo.png">-->
+        <!--<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>-->
+      </div>
+      <!-- #logo end -->
+
+      <!-- Primary Navigation ============================================= -->
+      <nav id="primary-menu">
+
+        <ul>
+          <li ui-sref-active="current" ><a ui-sref="home"><div>Peace of Mind</div></a></li>
+          <li class="mega-menu" ui-sref-active="current"><a ui-sref="pricing"><div>Pricing</div></a></li>
+          <li class="mega-menu" ui-sref-active="current"><a ui-sref="process"><div>Process</div></a></li>
+          <li class="mega-menu"><a href="#"><div>Submit a claim</div></a></li>
+          <li class="mega-menu"><a href ng-click="moreOpen = !moreOpen;"><div>More<i class="ion-android-arrow-dropdown" style="top:1px;"></i></div></a>
+            <ul style="{{moreOpen ? 'display:block': ''}}">
+              <li><a ui-sref="pricing" href><div>Business Claims</div></a></li>
+              <li><a href="#"><div>Why Us</div></a></li>
+              <li><a href="#"><div>Testimonials</div></a></li>
+              <li><a href="#"><div>Contact us</div></a></li>
+              <li><a href="#"><div>FAQ</div></a></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- Top Search  ============================================= -->
+        <div id="top-search">
+          <a href="#" id="top-search-trigger"><i class="ion-ios-search" style="font-size: 24px;"></i><i class="icon-line-cross"></i></a>
+          <form action="search.html" method="get">
+            <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+          </form>
+        </div>
+        <!-- #top-search end -->
+
+      </nav>
+      <!-- #primary-menu end -->
+
+    </div>
+
+  </div>
+
+</header><!-- #header end -->
