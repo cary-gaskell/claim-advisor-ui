@@ -23,8 +23,8 @@
           <li ui-sref-active="current" ><a ui-sref="home"><div>Peace of Mind</div></a></li>
           <li class="mega-menu" ui-sref-active="current"><a ui-sref="pricing"><div>Pricing</div></a></li>
           <li class="mega-menu" ui-sref-active="current"><a ui-sref="process"><div>Process</div></a></li>
-          <li class="mega-menu"><a href ng-click="moreOpen = !moreOpen;"><div>More<i class="ion-android-arrow-dropdown" style="top:1px;"></i></div></a>
-            <ul style="{{moreOpen ? 'display:block': ''}}">
+          <li class="mega-menu"><a href ng-mouseover="moreOpen = true" ng-init="moreOpen = false" ng-mouseleave="moreOpen = false"><div>More<i class="ion-android-arrow-dropdown" style="top:1px;"></i></div></a>
+            <ul style="{{moreOpen ? 'display:block': ''}}" ng-mouseover="moreOpen = true" ng-mouseleave="moreOpen = false">
               <li><a ui-sref="business"><div>Business Claims</div></a></li>
               <li><a ui-sref="why"><div>Why Us</div></a></li>
               <li><a ui-sref="testimonial"><div>Testimonials</div></a></li>
