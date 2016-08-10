@@ -6,14 +6,17 @@
       .controller('ContactController', ContactController);
 
   /** @ngInject */
-  function ContactController($timeout, toastr) {
+  function ContactController(NgMap) {
     var vm = this;
-
-    vm.showToastr = showToastr;
 
     activate();
 
     function activate() {
     }
+
+    vm.mapCenter = [39.957204, -76.738443];
+    NgMap.getMap().then(function (map) {
+      vm.map = map;
+    });
   }
 })();
