@@ -55,6 +55,12 @@
           templateUrl: 'app/business/business.html',
           controller: 'BusinessController',
           controllerAs: 'vm'
+        })
+        .state('about', {
+          url: '/about-us',
+          templateUrl: 'app/about/about.html',
+          controller: 'AboutController',
+          controllerAs: 'vm'
         });
 
     $urlRouterProvider.otherwise('/');

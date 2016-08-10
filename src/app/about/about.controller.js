@@ -1,3 +1,19 @@
-/**
- * Created by cary.gaskell on 6/13/16.
- */
+(function() {
+  'use strict';
+
+  angular
+      .module('claimAdvisor')
+      .controller('AboutController', AboutController);
+
+  /** @ngInject */
+  function AboutController($timeout, toastr) {
+    var vm = this;
+
+    vm.showToastr = showToastr;
+
+    activate();
+
+    function activate() {
+    }
+  }
+})();
